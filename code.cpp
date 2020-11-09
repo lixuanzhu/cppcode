@@ -15,7 +15,7 @@ int findContentChildren(vector<int>& children, vector<int>& cookies) {
     }
     return child;
 }
-
+ 
 int candy(vector<int>& rating) {
     int size = rating.size();
     if(size < 2) return size;
@@ -28,7 +28,6 @@ int candy(vector<int>& rating) {
     }
     return accumulate(num.begin(), num.end(), 0);
 }
-
 
 int main()
 {
